@@ -1,0 +1,32 @@
+{
+  "name": "funroll",
+  "version": "1.0.0",
+  "description": "A parlor trick turned into a library",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "NODE_ENV=testing mocha --require chai/register-expect.js --recursive './test/**/*spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djaqua/funroll.git"
+  },
+  "keywords": [
+    "map",
+    "reduce",
+    "performance"
+  ],
+  "author": "Drew Jaqua (https://www.linkedin.com/in/andrew-jaqua/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djaqua/funroll/issues"
+  },
+  "homepage": "https://github.com/djaqua/funroll#readme",
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "lodash": "^4.17.21",
+    "mocha": "^10.3.0"
+  }
+}
